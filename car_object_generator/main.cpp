@@ -19,7 +19,7 @@ int main(){
     getline(cin, newCarModel);
     cout << "Enter the engine type: ";
     getline(cin, engineType);
-    cout << "Enter the engine displacement: ";
+    cout << "Enter the engine displacement (L): ";
     cin >> engineDisplacement;
     cin.ignore();
     cout << "Is the engine turbocharged [y/n]? ";
